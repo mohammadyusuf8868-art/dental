@@ -258,6 +258,9 @@ menu.addEventListener("click", () => {
     menu.innerHTML = nav.classList.contains("active") ? "✕" : "☰";
 
 });
+
+/*NAVBAR SOUNDS*/
+
 /*homesound*/
 
 document.getElementById("home").addEventListener("click", () => {
@@ -353,6 +356,33 @@ document.getElementById("book1").addEventListener("click", () => {
     document.getElementById("booksound1").currentTime = 0;
     document.getElementById("booksound1").play();
 });
+
+
+/*Form booking*/
+
+document.getElementById("bookingForm").onsubmit = function(e) {
+
+    e.preventDefault();
+
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var phone = document.getElementById("phone").value;
+    var message = document.getElementById("message").value;
+
+    var whatsapp =
+        "Hello, I want to book an appointment.%0A%0A" +
+        "Name: " + encodeURIComponent(name) + "%0A" +
+        "Email: " + encodeURIComponent(email) + "%0A" +
+        "Phone: " + encodeURIComponent(phone) + "%0A" +
+        "Message: " + encodeURIComponent(message);
+
+    var url = "https://wa.me/91?text=" + whatsapp;
+
+    window.open(url, "_blank");
+
+};
+
+
 
 
 
