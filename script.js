@@ -258,3 +258,101 @@ menu.addEventListener("click", () => {
     menu.innerHTML = nav.classList.contains("active") ? "✕" : "☰";
 
 });
+/*homesound*/
+
+document.getElementById("home").addEventListener("click", () => {
+    document.getElementById("homesound").currentTime = 0;
+    document.getElementById("homesound").play();
+});
+
+/*Aboutsound*/
+
+document.getElementById("abouttt").addEventListener("click", () => {
+    document.getElementById("aboutsound").currentTime = 0;
+    document.getElementById("aboutsound").play();
+});
+
+/*Servicessound*/
+
+document.getElementById("servicesss").addEventListener("click", () => {
+    document.getElementById("servicessound").currentTime = 0;
+    document.getElementById("servicessound").play();
+});
+
+/*Doctorssound*/
+
+document.getElementById("doctorsss").addEventListener("click", () => {
+    document.getElementById("doctorssound").currentTime = 0;
+    document.getElementById("doctorssound").play();
+});
+
+/*testimonialssound*/
+
+document.getElementById("testimonialsss").addEventListener("click", () => {
+    document.getElementById("testimonialssound").currentTime = 0;
+    document.getElementById("testimonialssound").play();
+});
+/*contactsound*/
+
+document.getElementById("addresss").addEventListener("click", () => {
+    document.getElementById("addressound").currentTime = 0;
+    document.getElementById("addressound").play();
+});
+
+/*booksound*/
+document.getElementById("bookk").addEventListener("click", () => {
+    document.getElementById("booksound").currentTime = 0;
+    document.getElementById("booksound").play();
+});
+
+/*Big screen*/
+
+/*homesound*/
+
+document.getElementById("home1").addEventListener("click", () => {
+    document.getElementById("homesound1").currentTime = 0;
+    document.getElementById("homesound1").play();
+});
+
+/*Aboutsound*/
+
+document.getElementById("about1").addEventListener("click", () => {
+    document.getElementById("aboutsound1").currentTime = 0;
+    document.getElementById("aboutsound1").play();
+});
+
+/*Servicessound*/
+
+document.getElementById("services1").addEventListener("click", () => {
+    document.getElementById("servicessound1").currentTime = 0;
+    document.getElementById("servicessound1").play();
+});
+
+/*Doctorssound*/
+
+document.getElementById("doctors1").addEventListener("click", () => {
+    document.getElementById("doctorssound1").currentTime = 0;
+    document.getElementById("doctorssound1").play();
+});
+
+/*testimonialssound*/
+
+document.getElementById("testimonials1").addEventListener("click", () => {
+    document.getElementById("testimonialssound1").currentTime = 0;
+    document.getElementById("testimonialssound1").play();
+});
+/*contactsound*/
+
+document.getElementById("contact1").addEventListener("click", () => {
+    document.getElementById("addressound1").currentTime = 0;
+    document.getElementById("addressound1").play();
+});
+
+/*booksound*/
+document.getElementById("book1").addEventListener("click", () => {
+    document.getElementById("booksound1").currentTime = 0;
+    document.getElementById("booksound1").play();
+});
+
+
+
