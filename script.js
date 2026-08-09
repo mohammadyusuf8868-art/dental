@@ -8,14 +8,13 @@ window.addEventListener("load", () => {
 
 const sound = document.getElementById("welcomeSound");
 
-window.addEventListener("scrollY", () => {
+window.addEventListener("scroll", () => {
     sound.play();
 }, { once: true });
 
-document.addEventListener("pointerdown",() => {
-    document.getElementById("welcomeSound").play();
+document.addEventListener("pointerdown", () => {
+    sound.play();
 }, { once: true });
-
 
 /*STICKY HEADER*/
 
