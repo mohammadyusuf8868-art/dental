@@ -6,12 +6,6 @@ window.addEventListener("load", () => {
 
 /*for sound effect*/
 
-const sound = document.getElementById("welcomeSound");
-
-window.addEventListener("scroll", () => {
-    sound.play();
-}, { once: true });
-
 document.addEventListener("pointerdown", () => {
     sound.play();
 }, { once: true });
